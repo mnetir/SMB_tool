@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: var(--pds-font-primary);
+  background-color: var(--pds-bg);
+  color: var(--pds-text-primary);
+  font-size: var(--pds-text-body);
+  line-height: 1.6;
+}
+
+/* RTL-first utility classes */
+.rtl { direction: rtl; }
+.ltr { direction: ltr; }
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--pds-border);
+  border-radius: var(--pds-radius-full);
+}

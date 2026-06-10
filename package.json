@@ -1,0 +1,12 @@
+{
+  "name": "pishgaman-smart-business-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pishgaman Business Platform - Monorepo",
+  "scripts": {
+    "sba:backend:dev": "cd packages/small-business-app/backend && npm run start:dev",
+    "sba:frontend:dev": "cd packages/small-business-app/frontend && npm run dev",
+    "sba:backend:build": "cd packages/small-business-app/backend && npm run build",
+    "sba:frontend:build": "cd packages/small-business-app/frontend && npm run build"
+  }
+}
