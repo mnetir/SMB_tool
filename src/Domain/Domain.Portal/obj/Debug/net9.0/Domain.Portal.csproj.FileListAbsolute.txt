@@ -1,0 +1,16 @@
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.GeneratedMSBuildEditorConfig.editorconfig
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.AssemblyInfoInputs.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.AssemblyInfo.cs
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.csproj.CoreCompileInputs.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.sourcelink.json
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/bin/Debug/net9.0/Domain.Portal.deps.json
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/bin/Debug/net9.0/Domain.Portal.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/bin/Debug/net9.0/Domain.Portal.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/bin/Debug/net9.0/Shared.Kernel.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/bin/Debug/net9.0/Shared.Kernel.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.csproj.AssemblyReference.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.P.89C52758.Up2Date
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/refint/Domain.Portal.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/Domain.Portal.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/Debug/net9.0/ref/Domain.Portal.dll

@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/agent-customer-portal-developer/SMB_tool/src/CustomerPortal/CustomerPortal.Api/CustomerPortal.Api.csproj": {}
+  },
+  "projects": {
+    "/home/agent-customer-portal-developer/SMB_tool/src/CustomerPortal/CustomerPortal.Api/CustomerPortal.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agent-customer-portal-developer/SMB_tool/src/CustomerPortal/CustomerPortal.Api/CustomerPortal.Api.csproj",
+        "projectName": "CustomerPortal.Api",
+        "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/CustomerPortal/CustomerPortal.Api/CustomerPortal.Api.csproj",
+        "packagesPath": "/home/agent-customer-portal-developer/.nuget/packages/",
+        "outputPath": "/home/agent-customer-portal-developer/SMB_tool/src/CustomerPortal/CustomerPortal.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/agent-customer-portal-developer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/Domain.Portal.csproj": {
+                "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/Domain.Portal.csproj"
+              },
+              "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj": {
+                "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj"
+              },
+              "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/Shared.Security.csproj": {
+                "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/Shared.Security.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/agent-customer-portal-developer/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/Domain.Portal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/Domain.Portal.csproj",
+        "projectName": "Domain.Portal",
+        "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/Domain.Portal.csproj",
+        "packagesPath": "/home/agent-customer-portal-developer/.nuget/packages/",
+        "outputPath": "/home/agent-customer-portal-developer/SMB_tool/src/Domain/Domain.Portal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/agent-customer-portal-developer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj": {
+                "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/agent-customer-portal-developer/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj",
+        "projectName": "Shared.Kernel",
+        "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/Shared.Kernel.csproj",
+        "packagesPath": "/home/agent-customer-portal-developer/.nuget/packages/",
+        "outputPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/agent-customer-portal-developer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/agent-customer-portal-developer/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/Shared.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/Shared.Security.csproj",
+        "projectName": "Shared.Security",
+        "projectPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/Shared.Security.csproj",
+        "packagesPath": "/home/agent-customer-portal-developer/.nuget/packages/",
+        "outputPath": "/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/agent-customer-portal-developer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/agent-customer-portal-developer/.dotnet/sdk/9.0.315/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

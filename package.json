@@ -3,21 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "Pishgaman Business Platform — Monorepo",
-  "workspaces": [
-    "packages/*",
-    "packages/customer-portal/backend",
-    "packages/customer-portal/frontend",
-    "packages/shared"
-  ],
   "scripts": {
-    "build": "npm run build --workspaces",
-    "lint": "npm run lint --workspaces",
-    "test": "npm run test --workspaces",
-    "format": "prettier --write \"**/*.ts\" \"**/*.tsx\""
-  },
-  "devDependencies": {
-    "prettier": "^3.2.0",
-    "typescript": "^5.4.0"
+    "dev": "cd packages/customer-portal/frontend && npm run dev"
   },
   "engines": {
     "node": ">=20.0.0"

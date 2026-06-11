@@ -1,0 +1,12 @@
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/bin/Debug/net9.0/Shared.Kernel.deps.json
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/bin/Debug/net9.0/Shared.Kernel.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/bin/Debug/net9.0/Shared.Kernel.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.GeneratedMSBuildEditorConfig.editorconfig
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.AssemblyInfoInputs.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.AssemblyInfo.cs
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.csproj.CoreCompileInputs.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.sourcelink.json
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/refint/Shared.Kernel.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/Shared.Kernel.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Kernel/obj/Debug/net9.0/ref/Shared.Kernel.dll

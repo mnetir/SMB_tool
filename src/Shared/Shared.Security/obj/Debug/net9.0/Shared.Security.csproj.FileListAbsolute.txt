@@ -1,0 +1,12 @@
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/bin/Debug/net9.0/Shared.Security.deps.json
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/bin/Debug/net9.0/Shared.Security.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/bin/Debug/net9.0/Shared.Security.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.GeneratedMSBuildEditorConfig.editorconfig
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.AssemblyInfoInputs.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.AssemblyInfo.cs
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.csproj.CoreCompileInputs.cache
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.sourcelink.json
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/refint/Shared.Security.dll
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/Shared.Security.pdb
+/home/agent-customer-portal-developer/SMB_tool/src/Shared/Shared.Security/obj/Debug/net9.0/ref/Shared.Security.dll

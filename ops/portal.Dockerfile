@@ -1,36 +1,35 @@
 # --- Stage 1: Build ---
-FROM node:20-alpine AS builder
-
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS builder
 WORKDIR /app
 
-# Install dependencies
-COPY package*.json ./
-RUN npm ci
+# Copy solution and project files
+COPY src/Pishgaman.sln .
+COPY src/Shared/Shared.Kernel/*.csproj Shared/Shared.Kernel/
+COPY src/Shared/Shared.Security/*.csproj Shared/Shared.Security/
+COPY src/Domain/Domain.Portal/*.csproj Domain/Domain.Portal/
+COPY src/CustomerPortal/CustomerPortal.Api/*.csproj CustomerPortal/CustomerPortal.Api/
 
-# Copy source code
-COPY . .
+# Restore
+RUN dotnet restore CustomerPortal/CustomerPortal.Api/CustomerPortal.Api.csproj
 
-# Build the application
-RUN npm run build
+# Copy all source
+COPY src/ .
 
-# --- Stage 2: Production ---
-FROM node:20-alpine
+# Build and publish
+WORKDIR /app/CustomerPortal/CustomerPortal.Api
+RUN dotnet publish -c Release -o /app/publish
 
+# --- Stage 2: Runtime ---
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
 WORKDIR /app
+COPY --from=builder /app/publish .
 
-# Copy production dependencies and built artifacts
-COPY --from=builder /app/package*.json ./
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/dist ./dist
-
-# Standard production environment variables
-ENV NODE_ENV=production
-ENV PORT=3000
+ENV ASPNETCORE_ENVIRONMENT=Production
+ENV ASPNETCORE_URLS=http://0.0.0.0:3000
 
 EXPOSE 3000
 
-# Healthcheck
 HEALTHCHECK --interval=30s --timeout=3s \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:3000/health || exit 1
+  CMD curl -f http://localhost:3000/health || exit 1
 
-CMD ["node", "dist/main.js"]
+ENTRYPOINT ["dotnet", "CustomerPortal.Api.dll"]
