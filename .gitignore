@@ -6,3 +6,9 @@ build/
 .DS_Store
 coverage/
 .turbo/
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
