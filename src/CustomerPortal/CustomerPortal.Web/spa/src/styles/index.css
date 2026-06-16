@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pds-primary: #356DFF; --pds-primary-hover: #2558D8; --pds-primary-active: #1A45B0;
+  --pds-primary-soft: #EEF3FF; --pds-success: #22C55E; --pds-warning: #F59E0B;
+  --pds-danger: #EF4444; --pds-info: #06B6D4; --pds-neutral: #64748B;
+  --pds-bg: #EEF3FF; --pds-surface: #FFFFFF; --pds-border: #DBE3F0;
+  --pds-text-primary: #1F2937; --pds-text-secondary: #475569; --pds-text-muted: #6B7280;
+  --pds-sidebar-bg: #FFFFFF; --pds-header-bg: #FFFFFF;
+  --pds-space-1: 4px; --pds-space-2: 8px; --pds-space-3: 12px; --pds-space-4: 16px;
+  --pds-space-5: 20px; --pds-space-6: 24px; --pds-space-8: 32px; --pds-space-10: 40px;
+  --pds-radius-sm: 8px; --pds-radius-md: 12px; --pds-radius-lg: 18px; --pds-radius-xl: 24px;
+  --pds-shadow-sm: 0 2px 8px rgba(0,0,0,0.04); --pds-shadow-md: 0 4px 20px rgba(0,0,0,0.05);
+  --pds-shadow-lg: 0 10px 30px rgba(0,0,0,0.08); --pds-shadow-xl: 0 16px 40px rgba(0,0,0,0.16);
+  --pds-z-sidebar: 300; --pds-z-modal: 500; --pds-z-toast: 600;
+  --pds-text-h1: 26px; --pds-text-h2: 22px; --pds-text-h3: 18px; --pds-text-body: 14px;
+  --pds-font-primary: 'IranYekanX', 'IranYekan', 'Tahoma', sans-serif;
+}
+
+html { direction: rtl; }
+body {
+  font-family: var(--pds-font-primary);
+  background: var(--pds-bg);
+  color: var(--pds-text-primary);
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.6;
+}

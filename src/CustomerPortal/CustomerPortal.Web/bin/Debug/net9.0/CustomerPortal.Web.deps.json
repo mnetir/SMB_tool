@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CustomerPortal.Web/1.0.0": {
+        "runtime": {
+          "CustomerPortal.Web.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomerPortal.Web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

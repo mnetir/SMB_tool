@@ -1,0 +1,41 @@
+@{
+    var env = Context.RequestServices.GetRequiredService<IWebHostEnvironment>();
+    var manifest = await ViteManifestLoader.LoadAsync(env);
+    var entry = manifest?.Values?.FirstOrDefault(e => e.IsEntry);
+    var cssFile = entry?.Css?.FirstOrDefault();
+    var jsFile = entry?.File;
+}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#356DFF" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>پیشگامان | پورتال مشتریان</title>
+    @if (cssFile != null)
+    {
+        <link rel="stylesheet" href="/dist/@cssFile" />
+    }
+</head>
+<body>
+    <div id="app"></div>
+    @if (jsFile != null)
+    {
+        <script type="module" src="/dist/@jsFile"></script>
+    }
+    else
+    {
+        <!-- Dev fallback: load from Vite dev server -->
+        <script type="module" src="http://localhost:5173/src/main.tsx"></script>
+    }
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+</body>
+</html>

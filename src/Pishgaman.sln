@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Kernel", "Shared\Sha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Security", "Shared\Shared.Security\Shared.Security.csproj", "{EE90D20A-184A-4981-981B-5265080EC998}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerPortal.Web", "CustomerPortal\CustomerPortal.Web\CustomerPortal.Web.csproj", "{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,18 @@ Global
 		{EE90D20A-184A-4981-981B-5265080EC998}.Release|x64.Build.0 = Release|Any CPU
 		{EE90D20A-184A-4981-981B-5265080EC998}.Release|x86.ActiveCfg = Release|Any CPU
 		{EE90D20A-184A-4981-981B-5265080EC998}.Release|x86.Build.0 = Release|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Debug|x64.Build.0 = Debug|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Debug|x86.Build.0 = Debug|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Release|x64.ActiveCfg = Release|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Release|x64.Build.0 = Release|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Release|x86.ActiveCfg = Release|Any CPU
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +94,6 @@ Global
 		{D5B61F9F-E7E1-46B4-A2C2-0FFC48812E7D} = {D1D91C88-ACF4-3D37-4C2F-4C93DCAA1BC5}
 		{C6F7FCFD-E7BA-4C0F-A9DB-EB5502FA2809} = {D1D91C88-ACF4-3D37-4C2F-4C93DCAA1BC5}
 		{EE90D20A-184A-4981-981B-5265080EC998} = {D1D91C88-ACF4-3D37-4C2F-4C93DCAA1BC5}
+		{F681FB8B-3E40-4ABF-8B77-96661A82FCC7} = {D1D91C88-ACF4-3D37-4C2F-4C93DCAA1BC5}
 	EndGlobalSection
 EndGlobal
