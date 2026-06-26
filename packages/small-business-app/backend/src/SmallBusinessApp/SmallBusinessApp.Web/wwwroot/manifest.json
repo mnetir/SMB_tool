@@ -1,0 +1,28 @@
+{
+  "name": "پیشگامان | کسب و کار کوچک",
+  "short_name": "پیشگامان SBA",
+  "description": "سامانه مدیریت منابع انسانی، حضور و غیاب و حقوق و دستمزد",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#1e40af",
+  "orientation": "any",
+  "dir": "rtl",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "/dist/assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/dist/assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "screenshots": []
+}

@@ -1,0 +1,13 @@
+@{
+    Layout = "_Layout";
+}
+<div class="pds-app-shell">
+    @await Html.PartialAsync("_Header")
+    <div class="pds-app-body">
+        @await Html.PartialAsync("_Sidebar")
+        <main class="pds-main-content">
+            @* SPA renders into this container *@
+            <div id="app-root"></div>
+        </main>
+    </div>
+</div>

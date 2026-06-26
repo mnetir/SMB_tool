@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>پیشگامان | سامانه در دسترس نیست</title>
+    <style>
+        body {
+            font-family: 'Vazir', 'IRANSans', Tahoma, sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            direction: rtl;
+        }
+        h1 { color: #1e40af; font-size: 1.5rem; margin-bottom: 0.5rem; }
+        p { color: #64748b; font-size: 1rem; }
+        .offline-icon { font-size: 4rem; margin-bottom: 1rem; }
+        button {
+            background-color: #1e40af;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        button:hover { background-color: #1e3a8a; }
+    </style>
+</head>
+<body>
+    <div class="offline-icon">📡</div>
+    <h1>اتصال اینترنت برقرار نیست</h1>
+    <p>لطفاً اتصال خود را بررسی کنید و دوباره تلاش کنید.</p>
+    <button onclick="window.location.reload()">تلاش مجدد</button>
+</body>
+</html>

@@ -1,0 +1,71 @@
+@{
+    var appName = "پیشگامان";
+    var version = "3.0.0";
+}
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@appName | کسب و کار کوچک</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#1e40af" />
+    <meta name="description" content="سامانه مدیریت منابع انسانی و حقوق و دستمزد پیشگامان" />
+
+    <!-- PEDS Token CSS -->
+    <link rel="stylesheet" href="/dist/assets/peds.css" />
+    <link rel="stylesheet" href="/dist/assets/index.css" />
+
+    <!-- Inter + Vazir Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        @@font-face {
+            font-family: 'Vazir';
+            src: url('/dist/assets/Vazir.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        :root {
+            --font-family-primary: 'Vazir', 'IRANSans', Tahoma, sans-serif;
+            --font-family-secondary: 'Inter', 'Roboto', sans-serif;
+        }
+        body {
+            font-family: var(--font-family-primary);
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+    @* Server-side bootstrap data injected as JSON *@
+    <script id="__SBA_BOOTSTRAP__" type="application/json">
+    {
+        "appName": "@appName",
+        "version": "@version",
+        "culture": "fa-IR",
+        "direction": "rtl"
+    }
+    </script>
+
+    @* SPA root element *@
+    <div id="app">@RenderBody()</div>
+
+    @* SPA entry bundle *@
+    <script type="module" src="/dist/assets/index.js"></script>
+
+    @* Service Worker registration *@
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('SW registered:', reg.scope))
+                    .catch(err => console.warn('SW registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>
